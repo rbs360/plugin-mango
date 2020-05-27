@@ -1,2 +1,2 @@
 # plugin-phone-example
-Plugin for telephone provider
+Phone plugin example
