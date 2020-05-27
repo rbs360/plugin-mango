@@ -1,2 +1,2 @@
-# plugin-mango
-Plugin for telephone provider Mango
+# plugin-phone-example
+Plugin for telephone provider
