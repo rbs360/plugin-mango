@@ -1,6 +1,6 @@
 <?php
 	
-	namespace Kernel\Plugins\Mango\Actions;
+	namespace Kernel\Plugins\science communication\Actions;
 	
 	class ContentAction extends \Kernel\Plugins\PluginContentBase {
 		
