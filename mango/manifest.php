@@ -5,7 +5,7 @@
 	
 	return [
     "name" => "mango",
-    "description" => "SystemPhone telephone MANGO production",
+    "description" => "SystemPhone telephone science communication production",
     "types" => [
 	"phone",
     ],
