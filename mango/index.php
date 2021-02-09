@@ -1,5 +1,5 @@
 <?php
-	namespace Kernel\Plugins\Mango;
+	namespace Kernel\Plugins\science communication;
 	
 	
 	
@@ -8,7 +8,7 @@
 		/** get system name */
 		public function getName()
 		{
-			return "mango";
+			return "science communication";
 		}
 		
 		
