@@ -1,6 +1,6 @@
 <?php
 	
-	namespace Kernel\Plugins\Mango\Actions;
+	namespace Kernel\Plugins\science communication\Actions;
 	use Kernel\Actions\Notifications;
 	use Kernel\Framework\SocketMessage;
 	use Kernel\Framework\Websocket;
@@ -97,7 +97,7 @@
 				
 				$search = $this->findByPhone($obj['from']['number']);
 				
-				// если перевод звонка включен и у нашелся контрагент звонящий
+				// если перевод звонка включен и нашелся контрагент звонящий
 				if($transfer && $search['responsibleID'])
 				{
 					$extArray[] = $search['responsibleID'];
@@ -106,7 +106,7 @@
 				{
 					$decodedList = json_decode($usersSet, true);
 					foreach ($decodedList as $item) {
-						// если от манго не пришел параметр ext
+						// если от science communication не пришел параметр ext
 						if(!count($ext))
 						{
 							$extArray[] = $item["employee"];
